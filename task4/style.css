@@ -1,0 +1,31 @@
+body {
+    background-color: white;
+color: #333;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    margin: 15px 0;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input {
+    width: 200px;
+    padding: 5px;
+}
+
+input, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+button {
+    background-color: chocolate;
+    border: none;
+    padding: 5px 25px;
+    margin: 20px;
+}

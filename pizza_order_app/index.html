@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza App</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <div class="form-wrap">
+        <h1>Pizza Order App</h1>
+        <p>Customize your own delicious pizza in 1 minute!</p>
+
+        <form>
+          <div class="form-group">
+            <label for="yourName">Your Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+
+          <div class="form-group">
+            <p>Please select the size of your pizza</p>
+            <input
+              type="radio"
+              id="for2"
+              name="size"
+              value="For 2, the price is 7,50€" />
+            <label for="for2">For 2, the price is 7,50€</label><br />
+            <input
+              type="radio"
+              id="for4"
+              name="size"
+              value="For 4, the price is 10,50€" />
+            <label for="for4">For 4, the price is 10,50€</label><br />
+            <input
+              type="radio"
+              id="for6"
+              name="size"
+              value="For 6, the price is 12,50€" />
+            <label for="for6">For 6, the price is 12,50€</label><br />
+            <input
+              type="radio"
+              id="for8"
+              name="size"
+              value="For 8, the price is 15,50€" />
+            <label for="for8">For 8, the price is 15,50€</label>
+          </div>
+          <div class="form-group">
+            <p>
+              Select your toppings (first four are free, after that each +0,5€)
+            </p>
+            <input
+              type="checkbox"
+              id="topping1"
+              name="topping1"
+              value="pepperoni" />
+            <label for="topping1"> PEPPERONI</label><br />
+            <input
+              type="checkbox"
+              id="topping2"
+              name="topping2"
+              value="mozzarella" />
+            <label for="topping2"> MOZZARELLA</label><br />
+            <input
+              type="checkbox"
+              id="topping3"
+              name="topping3"
+              value="bacon" />
+            <label for="topping3"> BACON</label><br />
+            <input
+              type="checkbox"
+              id="topping4"
+              name="topping4"
+              value="mushroom" />
+            <label for="topping4"> MUSHROOM</label><br />
+            <input type="checkbox" id="topping5" name="topping5" value="ham" />
+            <label for="topping5"> HAM</label><br />
+            <input
+              type="checkbox"
+              id="topping6"
+              name="topping6"
+              value="pineapple" />
+            <label for="topping6"> PINEAPPLE</label><br />
+            <input
+              type="checkbox"
+              id="topping7"
+              name="topping7"
+              value="beef mince" />
+            <label for="topping7"> BEEF MINCE</label><br />
+            <input
+              type="checkbox"
+              id="topping8"
+              name="topping8"
+              value="onion" />
+            <label for="topping8"> ONION</label><br />
+            <input
+              type="checkbox"
+              id="topping9"
+              name="topping9"
+              value="bell pepper" />
+            <label for="topping9"> BELL PEPPER</label><br />
+            <input
+              type="checkbox"
+              id="topping10"
+              name="topping10"
+              value="olives" />
+            <label for="topping10"> OLIVES</label><br />
+            <input
+              type="checkbox"
+              id="topping11"
+              name="topping11"
+              value="prawns" />
+            <label for="topping11"> PRAWNS</label><br />
+            <input
+              type="checkbox"
+              id="topping12"
+              name="topping12"
+              value="chilli" />
+            <label for="topping12"> CHILLI</label><br /><br />
+          </div>
+          <div class="form-group">
+            <label for="methods">Choose delivery method</label>
+            <select name="methods" id="methods">
+              <option value="Delivery home, +5€">Delivery home, +5€</option>
+              <option value="Eat in, free">Eat in, free</option>
+              <option value="Pickup food, free">Pickup food, free</option>
+            </select>
+            <br /><br />
+          </div>
+        </form>
+
+        <p class="bottom-texts">
+          By cliking the Sign Up button, you agree to our
+          <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a>
+        </p>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
