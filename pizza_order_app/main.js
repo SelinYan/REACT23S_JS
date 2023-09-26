@@ -47,7 +47,7 @@ const pizzaOrder = () => {
   if (deliveryResult === "Delivery home, +5€") {
     price += 5;
   }
-  console.log(order_price);
+
   order_price.textContent = price;
   order_price.textContent = price.toFixed(2);
 };

@@ -1,0 +1,35 @@
+* {
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(120, 23, 120);
+}
+
+label {
+    font-weight: bold;
+    font-size: larger;
+    color: beige;
+}
+
+input {
+    width: 30%;
+    font-size: larger;
+    border: solid black 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: larger;
+    border: solid black 1px;
+}
+
+#answer {
+    font-size: larger;
+    color: beige;
+    font-weight: bold;
+}
